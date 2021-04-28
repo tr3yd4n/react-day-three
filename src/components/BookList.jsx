@@ -1,10 +1,11 @@
 import { ListGroup } from 'react-bootstrap'
 
+import fantasy from '../data/fantasy.json'
 
-const BookList = () => (
+const BookList = (fantasy) => (
     <ListGroup>
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+        <ListGroup.Item>hello</ListGroup.Item>
+        <ListGroup.Item>{fantasy.title}</ListGroup.Item>
         <ListGroup.Item>Morbi leo risus</ListGroup.Item>
         <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
